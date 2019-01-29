@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
-    "jsx": "react",
     "module": "esNext",
     "allowSyntheticDefaultImports": true,
     "target": "es6",
     "moduleResolution": "node",
     "sourceMap": true,
-    "outDir": "./dist",
+    "outDir": "./lib",
     "baseUrl": "./src",
     "lib": [
       "es5",
