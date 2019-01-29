@@ -1,0 +1,19 @@
+{
+  "name": "@b6y/commons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check": "tsc --skipLibCheck --pretty --project tsconfig.json -w --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ramda": "^0.25.47",
+    "ramda": "^0.26.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.0-dev.20190126"
+  }
+}
