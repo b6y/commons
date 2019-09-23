@@ -9,11 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/ramda": "^0.25.47",
+    "@types/ramda": "^0.26.22",
     "ramda": "^0.26.1",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
+    "tslint": "^5.20.0",
     "typescript": "^3.3.0-dev.20190126"
   }
 }

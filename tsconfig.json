@@ -1,46 +1,30 @@
 {
   "compilerOptions": {
-    "module": "esNext",
-    "allowSyntheticDefaultImports": true,
-    "target": "es6",
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "outDir": "./lib",
-    "baseUrl": "./src",
+    "target": "es5",
     "lib": [
-      "es5",
-      "es6",
       "dom",
-      "es2015.core",
-      "es2015.collection",
-      "es2015.generator",
-      "es2015.iterable",
-      "es2015.promise",
-      "es2015.proxy",
-      "es2015.reflect",
-      "es2015.symbol",
-      "es2015.symbol.wellknown",
-      "esnext.asynciterable",
-      "esnext.symbol",
-      "esnext.intl",
+      "dom.iterable",
       "esnext"
     ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
     "rootDir": "./src",
-    "declaration": false,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "typeRoots": [
-      "../node_modules/@types",
-      "./src/types"
-    ],
-    "paths": {
-      "@/*": ["./@/*"]
-    },
-    "types": [
-      "reflect-metadata"
-    ]
+    "baseUrl": "./src"
+  },
+  "paths": {
+    "@/*": ["./@/*"]
   },
   "include": [
-    "./src/**/*"
+    "src"
   ]
 }
