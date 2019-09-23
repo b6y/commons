@@ -1,2 +1,2 @@
-declare const _default: (input: string) => string;
+declare const _default: (value: string) => string | null;
 export default _default;

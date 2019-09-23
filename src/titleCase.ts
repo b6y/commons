@@ -6,7 +6,7 @@ export default (value: string): string | null => {
   }
 
   return value.replace(
-    /(^[a-z]| [a-z]|-[a-z]|_[a-z])/g,
+    /(^[A-zÀ-ú]| [A-zÀ-ú]|-[A-zÀ-ú]|_[A-zÀ-ú])/g,
     ($1) => $1.toUpperCase(),
   );
 };
